@@ -1,0 +1,21 @@
+#ulUsers {
+  list-style-type: none;
+}
+
+li.selected{
+  font-size: 2pc;
+  font-weight: bold;
+}
+#ulUsers li {
+  cursor: pointer;
+}
+#ulUsers li:hover {
+  color: blue;
+}
+#ulUsers {
+  width: 20%;
+  border-style: solid;
+  max-height: 120px;
+  overflow: scroll;
+  border-style: solid;
+}

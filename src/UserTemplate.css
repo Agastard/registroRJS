@@ -1,0 +1,11 @@
+.form-control.editing {
+  color: orange;
+}
+
+.form-control.success_edited {
+  color: green;
+}
+
+.form-control.error_edited {
+  color: red;
+}

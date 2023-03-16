@@ -89,7 +89,7 @@ export default function UserTemplate({ title, buttonText = "Registrar", servidor
         )
         if (servidor === 'insert') {
           console.log("Was an insert", { ...userData, user_id: result.data?.data?.user_id });
-          afterDoFunction({ ...userData, user_id: result.data?.data?.user_id,isNew:true })
+          afterDoFunction({ ...userData, user_id: parseInt(result.data?.data?.user_id),isNew:true })
         }
         //setUserData({ ...userData, [e.target.name]: e.target.value })
 

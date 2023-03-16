@@ -112,7 +112,7 @@ export default function ListUsers() {
     }
 
   }
-  console.log('no hay users in bd', noUserInBD)
+  console.log('¿no hay users in bd?', noUserInBD)
   if (!noUserInBD && (!users || users?.length <= 0)) {
     console.log("No usewrs", users)
     console.log("searching....")
@@ -125,7 +125,7 @@ export default function ListUsers() {
         // @HACk
         var tempUsers = results.data;
         for (var i = 0; i < 9; i++) {
-          tempUsers.push(tempUsers[0])
+          //tempUsers.push(tempUsers[0])
         }
         //setUsers(results.data);
         setUsers(tempUsers);
